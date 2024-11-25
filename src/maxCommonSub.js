@@ -1,3 +1,5 @@
+const { getMaxListeners } = require('mocha/lib/runner');
+
 /**
  * Write a function which finds a maximal common substring of two given strings
  * example
@@ -9,5 +11,18 @@
  * @returns {number}
  */
 module.exports.maxCommonSub = function maxCommonSub(str1, str2) {
-  throw new Error('Not implemented'); // remove me and write a solution
+  let maxLength = 0;
+  let longestCommon = '';
+
+  for (let i = 0; i < str1.length; i++) {
+    for (let j = i + 1; j <= str1.length; j++) {
+      const substring = str1.slice(i, j);
+
+      if (str2.includes(substring) && substring.length > maxLength) {
+        maxLength = substring.length;
+        longestCommon = substring;
+      }
+    }
+  }
+  return longestCommon;
 };

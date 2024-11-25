@@ -4,5 +4,13 @@
  * @returns {Object}
  */
 module.exports.hundredAfterOdd = function hundredAfterOdd(arr) {
-  throw new Error('Not implemented'); // remove me and write a solution
+  const proxyArray = [];
+
+  for (const nun of arr) {
+    proxyArray.push(nun);
+    if (nun % 2 !== 0) {
+      proxyArray.push(100);
+    }
+  }
+  return proxyArray;
 };
