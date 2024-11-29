@@ -4,5 +4,19 @@
  * @returns {function}
  */
 module.exports.formatAddress = function formatAddress() {
-  throw new Error('Not implemented'); // remove me and write a solution
+  // return the function,
+  return function (address) {
+    //We check each element of the address
+    const addressParts = [];
+
+    // We add each part of the address to the array
+    if (address.street) addressParts.push(address.street);
+    if (address.house) addressParts.push(address.house);
+    if (address.apartment) addressParts.push(address.apartment);
+    if (address.city) addressParts.push(address.city);
+    if (address.postalCode) addressParts.push(address.postalCode);
+    if (address.country) addressParts.push(address.country);
+
+    return addressParts.join(', ');
+  };
 };
