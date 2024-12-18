@@ -64,6 +64,11 @@ module.exports.createUsers = function (data) {
   return data.map(({ firstName, secondName, age }) => new User(firstName, secondName, age));
 };
 
+/**
+ * @param {Array<User>} users
+ * @param {number} age
+ * @returns {Array<User>}
+ */
 module.exports.findUsersByAge = function (users, age) {
   return users.filter(user => user.age === age);
 };
@@ -76,7 +81,7 @@ module.exports.createUsersSortFn = function (TestUtils) {
 
 module.exports.celebrate = function (users) {
   users.forEach((user, index) => {
-    if (index % 2 !== 0) {
+    if (index % 2 === 0) {
       user.celebrateBirthday();
     }
   });
