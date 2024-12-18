@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.006" tests="57" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-12-16T20:35:13" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="backToFront" timestamp="2024-12-16T20:35:13" tests="10" file="C:\Users\dubic\javasSkript\js-ts-tasks\test\index.js" time="0.002" failures="0">
+    <testcase name="backToFront should return &quot;ohelloo&quot;" time="0.000" classname="should return &quot;ohelloo&quot;">
+    </testcase>
+    <testcase name="backToFront should return &quot;abcabcabc&quot;" time="0.000" classname="should return &quot;abcabcabc&quot;">
+    </testcase>
+    <testcase name="backToFront should return &quot;world&quot;" time="0.000" classname="should return &quot;world&quot;">
+    </testcase>
+    <testcase name="backToFront should return &quot;llbillll&quot;" time="0.000" classname="should return &quot;llbillll&quot;">
+    </testcase>
+    <testcase name="backToFront should return &quot;!one!!&quot;" time="0.000" classname="should return &quot;!one!!&quot;">
+    </testcase>
+    <testcase name="backToFront should return &quot;smallString&quot;" time="0.000" classname="should return &quot;smallString&quot;">
+    </testcase>
+    <testcase name="backToFront should return &quot;320933&quot;" time="0.000" classname="should return &quot;320933&quot;">
+    </testcase>
+    <testcase name="backToFront should return &quot;   &quot;" time="0.000" classname="should return &quot;   &quot;">
+    </testcase>
+    <testcase name="backToFront should return &quot;&apos;&apos;&apos;&quot;" time="0.000" classname="should return &quot;&apos;&apos;&apos;&quot;">
+    </testcase>
+    <testcase name="backToFront should return &quot;&quot;" time="0.000" classname="should return &quot;&quot;">
+    </testcase>
+  </testsuite>
+  <testsuite name="compareSalary" timestamp="2024-12-16T20:35:13" tests="6" file="C:\Users\dubic\javasSkript\js-ts-tasks\test\index.js" time="0.000" failures="0">
+    <testcase name="compareSalary should return 400" time="0.000" classname="should return 400">
+    </testcase>
+    <testcase name="compareSalary should return 0" time="0.000" classname="should return 0">
+    </testcase>
+    <testcase name="compareSalary should return 2" time="0.000" classname="should return 2">
+    </testcase>
+    <testcase name="compareSalary should return 5349" time="0.000" classname="should return 5349">
+    </testcase>
+    <testcase name="compareSalary should return 609.008888" time="0.000" classname="should return 609.008888">
+    </testcase>
+    <testcase name="compareSalary should return 53492003509" time="0.000" classname="should return 53492003509">
+    </testcase>
+  </testsuite>
+  <testsuite name="compareTwoNumbers" timestamp="2024-12-16T20:35:13" tests="5" file="C:\Users\dubic\javasSkript\js-ts-tasks\test\index.js" time="0.001" failures="0">
+    <testcase name="compareTwoNumbers should return &quot;&gt;&quot;" time="0.001" classname="should return &quot;&gt;&quot;">
+    </testcase>
+    <testcase name="compareTwoNumbers should return &quot;=&quot;" time="0.000" classname="should return &quot;=&quot;">
+    </testcase>
+    <testcase name="compareTwoNumbers should return &quot;=&quot;" time="0.000" classname="should return &quot;=&quot;">
+    </testcase>
+    <testcase name="compareTwoNumbers should return &quot;&lt;&quot;" time="0.000" classname="should return &quot;&lt;&quot;">
+    </testcase>
+    <testcase name="compareTwoNumbers should return &quot;=&quot;" time="0.000" classname="should return &quot;=&quot;">
+    </testcase>
+  </testsuite>
+  <testsuite name="digitsSum" timestamp="2024-12-16T20:35:13" tests="9" file="C:\Users\dubic\javasSkript\js-ts-tasks\test\index.js" time="0.000" failures="0">
+    <testcase name="digitsSum should return 1" time="0.000" classname="should return 1">
+    </testcase>
+    <testcase name="digitsSum should return 7" time="0.000" classname="should return 7">
+    </testcase>
+    <testcase name="digitsSum should return 2" time="0.000" classname="should return 2">
+    </testcase>
+    <testcase name="digitsSum should return 6" time="0.000" classname="should return 6">
+    </testcase>
+    <testcase name="digitsSum should return 10" time="0.000" classname="should return 10">
+    </testcase>
+    <testcase name="digitsSum should return 33" time="0.000" classname="should return 33">
+    </testcase>
+    <testcase name="digitsSum should return 22" time="0.000" classname="should return 22">
+    </testcase>
+    <testcase name="digitsSum should return 22" time="0.000" classname="should return 22">
+    </testcase>
+    <testcase name="digitsSum should return 0" time="0.000" classname="should return 0">
+    </testcase>
+  </testsuite>
+  <testsuite name="divider" timestamp="2024-12-16T20:35:13" tests="6" file="C:\Users\dubic\javasSkript\js-ts-tasks\test\index.js" time="0.001" failures="0">
+    <testcase name="divider should return &quot;2 0&quot;" time="0.000" classname="should return &quot;2 0&quot;">
+    </testcase>
+    <testcase name="divider should return &quot;2 2&quot;" time="0.000" classname="should return &quot;2 2&quot;">
+    </testcase>
+    <testcase name="divider should return &quot;4 1&quot;" time="0.000" classname="should return &quot;4 1&quot;">
+    </testcase>
+    <testcase name="divider should return &quot;8 0&quot;" time="0.000" classname="should return &quot;8 0&quot;">
+    </testcase>
+    <testcase name="divider should return &quot;1 1&quot;" time="0.000" classname="should return &quot;1 1&quot;">
+    </testcase>
+    <testcase name="divider should return &quot;2 1&quot;" time="0.000" classname="should return &quot;2 1&quot;">
+    </testcase>
+  </testsuite>
+  <testsuite name="evalExpr" timestamp="2024-12-16T20:35:13" tests="6" file="C:\Users\dubic\javasSkript\js-ts-tasks\test\index.js" time="0.000" failures="0">
+    <testcase name="evalExpr should return 4" time="0.000" classname="should return 4">
+    </testcase>
+    <testcase name="evalExpr should return 340" time="0.000" classname="should return 340">
+    </testcase>
+    <testcase name="evalExpr should return -20" time="0.000" classname="should return -20">
+    </testcase>
+    <testcase name="evalExpr should return -2036" time="0.000" classname="should return -2036">
+    </testcase>
+    <testcase name="evalExpr should return 4252" time="0.000" classname="should return 4252">
+    </testcase>
+    <testcase name="evalExpr should return -20372" time="0.000" classname="should return -20372">
+    </testcase>
+  </testsuite>
+  <testsuite name="sumInRange" timestamp="2024-12-16T20:35:13" tests="5" file="C:\Users\dubic\javasSkript\js-ts-tasks\test\index.js" time="0.000" failures="0">
+    <testcase name="sumInRange should return 45" time="0.000" classname="should return 45">
+    </testcase>
+    <testcase name="sumInRange should return 21" time="0.000" classname="should return 21">
+    </testcase>
+    <testcase name="sumInRange should return -125250" time="0.000" classname="should return -125250">
+    </testcase>
+    <testcase name="sumInRange should return -1" time="0.000" classname="should return -1">
+    </testcase>
+    <testcase name="sumInRange should return 55" time="0.000" classname="should return 55">
+    </testcase>
+  </testsuite>
+  <testsuite name="sumTwoNumbers" timestamp="2024-12-16T20:35:13" tests="6" file="C:\Users\dubic\javasSkript\js-ts-tasks\test\index.js" time="0.000" failures="0">
+    <testcase name="sumTwoNumbers should return 16" time="0.000" classname="should return 16">
+    </testcase>
+    <testcase name="sumTwoNumbers should return 458" time="0.000" classname="should return 458">
+    </testcase>
+    <testcase name="sumTwoNumbers should return -15" time="0.000" classname="should return -15">
+    </testcase>
+    <testcase name="sumTwoNumbers should return 0" time="0.000" classname="should return 0">
+    </testcase>
+    <testcase name="sumTwoNumbers should return -0.9" time="0.000" classname="should return -0.9">
+    </testcase>
+    <testcase name="sumTwoNumbers should return 215042314" time="0.000" classname="should return 215042314">
+    </testcase>
+  </testsuite>
+  <testsuite name="volumeCone" timestamp="2024-12-16T20:35:13" tests="4" file="C:\Users\dubic\javasSkript\js-ts-tasks\test\index.js" time="0.001" failures="0">
+    <testcase name="volumeCone should return 20.94" time="0.000" classname="should return 20.94">
+    </testcase>
+    <testcase name="volumeCone should return 314.16" time="0.000" classname="should return 314.16">
+    </testcase>
+    <testcase name="volumeCone should return 7.33" time="0.000" classname="should return 7.33">
+    </testcase>
+    <testcase name="volumeCone should return 28807927.11" time="0.000" classname="should return 28807927.11">
+    </testcase>
+  </testsuite>
+</testsuites>
