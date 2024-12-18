@@ -25,4 +25,4 @@ coverage
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?"junit.xml" 
+junit.xml
