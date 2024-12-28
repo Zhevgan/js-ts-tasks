@@ -43,11 +43,14 @@ jobs:
             exit 1
           fi
 
+<<<<<<< HEAD
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '20'
 
+=======
+>>>>>>> upstream/main
       - name: Install dependencies and run tests
         if: steps.check_files.outcome == 'success'
         run: |
