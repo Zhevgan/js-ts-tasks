@@ -13,5 +13,11 @@
  * @returns {function}
  */
 module.exports.palindrome = function palindrome(TestUtils) {
-  throw new Error('Not implemented'); // remove this line and create your solution
+  return function isPalindromeTest(str) {
+    const strLowerCase = str.toLowerCase();
+    const strClean = strLowerCase.replace(/[^\p{L}\p{N}]/gu, '');
+    const reversedStr = strClean.split('').reverse().join('');
+
+    return strClean === reversedStr;
+  };
 };
